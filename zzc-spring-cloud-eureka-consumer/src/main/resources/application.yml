@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: zzc-spring-cloud-eureka-consumer
+server:
+  port: 20002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
+  # \u914D\u7F6E\u4F18\u5148\u4F7F\u7528IP\u5730\u5740\u6CE8\u518C\u670D\u52A1
+  instance:
+    prefer-ip-address: true
